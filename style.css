@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.header{
+    background-color: rgb(255, 166, 32);
+    padding: 5px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 1165px;
+    z-index: 100000;
+}
+.h-logo{
+    width: 45px;
+}
+.h-logo img{
+    width: 100%;
+    margin: 0;
+}
+.item ul{
+    display: flex;
+    align-items: baseline;
+}
+.item ul li{
+    list-style: none;
+    padding: 0px 20px;
+    font-family: 'Kanit', sans-serif;
+}
+.item ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.item ul li a:hover{
+    color: rgb(217, 205, 187);
+    text-decoration: underline rgb(217, 205, 187);
+    font-weight: 800;
+}
+.head-temp{
+    display: flex;
+    justify-content: space-between;
+    padding: 205px 50px;
+    background-color: rgb(217, 205, 187);
+    align-items: end ;
+}
+.head-box h3{
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+.head-box h1{
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.head-box p{
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.contant{
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+.c-box{
+    width: 250px;
+    padding: 30px 10px;
+    text-align: center;
+}
+.b-img{
+    width: 50px;
+    margin: 0 auto;
+}
+.b-img img{
+    width: 100%;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.f-items ul li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+.f-items ul li a{
+    text-decoration: none;
+    color: white;
+}
+.f-items ul li a:hover{
+    text-decoration: underline rgb(255, 166, 32);
+    color: rgb(255, 166, 32);
+}
+#login{
+    background: black;
+    color: rgb(255, 166, 32);
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+#login:hover{
+    background: white;
+    color: black;
+    text-decoration: none;
+}
+#signup{
+    background: black;
+    color: rgb(255, 166, 32);
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+#signup:hover{
+    background: white;
+    color: black;
+    text-decoration: none;
+}

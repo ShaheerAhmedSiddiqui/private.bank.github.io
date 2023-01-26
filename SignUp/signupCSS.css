@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(255, 166, 32);
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4.5rem;
+}
+.h-logo{
+    width: 60px;
+}
+.h-logo img{
+    width: 100%;
+    margin: 0;
+}
+.item ul{
+    display: flex;
+    align-items: baseline;
+}
+.item ul li{
+    list-style: none;
+    padding: 0px 20px;
+    font-family: 'Kanit', sans-serif;
+}
+.item ul li a{
+    text-decoration: none;
+    color: black;
+}
+.item ul li a:hover{
+    color: rgb(217, 205, 187);
+    text-decoration: underline rgb(217, 205, 187);
+    font-weight: 800;
+}
+#login{
+    background: black;
+    color: rgb(255, 166, 32);
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+#login:hover{
+    background: white;
+    color: black;
+    text-decoration: none;
+}
+#signup{
+    background: black;
+    color: rgb(255, 166, 32);
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+#signup:hover{
+    background: white;
+    color: black;
+    text-decoration: none;
+}
+.login-Popup{
+    width: 450px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 15px;
+    background-color: darkcyan;
+    font-family: sans-serif;
+    margin-bottom: 10rem;
+}
+.text{
+    width: 200px;
+    margin: 0 auto;
+    text-align: initial;
+}
+#button{
+    display: block;
+    padding: 7px 122px 7px 5px;
+    background-image: linear-gradient(to right, rgb(217, 205, 187), rgb(255, 166, 32));
+}
+.user{
+    margin: 0;
+}
+.email{
+    margin-bottom: 10px;
+    padding: 5px 5px;
+}
+.password{
+    padding: 5px 5px;
+    margin: 10px 13px  45px 0px
+}
+#span{
+    text-decoration: none;
+    color: rgb(50, 197, 255);
+}
+#span:hover{
+    text-decoration: none;
+    color: rgb(255, 166, 32);
+}
+#signUp-record{
+    display: none;
+}
+#mytable{
+    margin: 0 auto ;
+}

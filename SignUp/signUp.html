@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../SignUp/signupCSS.css">
+    <title>SignUp</title>
+</head>
+<body>
+    <div class="header">
+        <div class="h-logo">
+            <img src="../SignUp/bnk-logo.png" alt="">
+        </div>
+        <div class="item">
+            <ul>
+                <!-- <li><a href="../bank.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Credit</a></li>
+                <li><a href="../My-bank/Recipt/ .html">Recipts</a></li>
+                <li><a href="../balnce/balance.html">Balance</a></li> -->
+                <li><a href="../Login/Login.html" id="login">Login</a></li>
+                <li><a href="../SignUp/signUp.html" id="signup">Sign Up</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="login-Popup">
+        <h1>SignUp To Private Bank LTD</h1>
+        <div class="text">
+        <p class="user">Username</p>
+        <input class="email" type="text"  id="user" placeholder="Enter your Username">
+        <p class="user">Email</p>
+        <input class="email" type="email" placeholder="Enter your email"  id="email">
+        <p  class="user">Password</p>
+        <input type="password" placeholder="Enter your Password" id="password">
+        <input class="password"  type="checkbox" onclick="showPass()">Show Password
+        <button type="button" id="button" onclick="SignUp()">SignUp</button>
+
+        <h6>Have an account <span><a href="../Login/Login.html" id="span">Login</a></span></h6>
+        </div>
+    </div>
+
+
+    <div id="signUp-record">
+        <table id="mytable" cellspacing="5" cellpadding="7px" border="1px solid black">
+            <tr>
+                <td>Username</td>
+                <td>Email</td>
+                <td>Password</td>
+            </tr>
+            <tr id="tr"></tr>
+        </table>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"
+    integrity="sha256-/H4YS+7aYb9kJ5OKhFYPUjSJdrtV6AeyJOtTkw6X72o=" crossorigin="anonymous"></script>
+<script src="../SignUp/signUpJS.js"></script>
+<script src="../balnce/jquery.js"></script>
+</html>

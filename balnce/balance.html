@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../balnce/balance_css.css">
+    <title>Account Balance</title>
+
+</head>
+
+<body>
+    <div id="balance">
+        <div class="header">
+            <div class="h-logo">
+                <img src="../balnce/bnk-logo.png" alt="">
+            </div>
+            <div class="item">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Credit</a></li>
+                    <li><a href="#">Recipts</a></li>
+                    <li><a href="#" onclick="record()">Records</a></li>
+                    <li><a href="#">Balance</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="contant">
+            <div class="b-type">
+                <div class="deposit">
+                    <h1 class="pkr">Deposit</h1>
+                    <p class="rpe">$ <span id="dep-val"></span></p>
+                </div>
+                <div class="Drawal">
+                    <h1 class="pkr">With Drawal</h1>
+                    <p class="rpe">$ <span id="drw-val"></span></p>
+                </div>
+                <div class="Balance">
+                    <h1 class="pkr">Total Balance</h1>
+                    <p class="rpe">$ <span id="total-val">1000</span></p>
+                </div>
+            </div>
+            <div class="transiction">
+                <div class="cash-deposit">
+                    <h2>Cash Deposit</h2>
+                    <form action="" class="balance-form">
+                        <input type="number" placeholder="deposit here" class="inp" id="dep-inp" required>
+                        <button type="button" class="cash-btn" id="dep-btn"
+                            onclick="deposit(); event.preventDefault()">Deposite</button>
+                    </form>
+                </div>
+                <div class="cash-withDrawal">
+                    <h2>Cash With-Drawal</h2>
+                    <form action="" class="balance-form"> <input type="number" placeholder="With-Drawal here"
+                            class="inp" id="drw-inp" required>
+                        <button type="button" class="cash-btn" id="drw-btn" onclick="withDraw()">With Drawal</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="bank-record" id="records">
+            <table id="mytable" class="table" border="1px solid black" cellspacing="5" cellpadding="8">
+                <thead>
+                    <tr>
+                        <th class="t-heading">Cash</th>
+                        <th class="t-heading">Type</th>
+                        <th class="t-heading">Date & Time</th>
+                        <th class="t-heading">Amount Remaining</th>
+                    </tr>
+                </thead>
+                <tbody id="last">
+                    <tr id="tr"></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="../balnce/balance_js.js"></script>
+<script src="../balnce/jquery.js"></script>
+
+</html>

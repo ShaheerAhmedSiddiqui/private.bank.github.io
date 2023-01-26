@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgb(255, 166, 32);
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.h-logo{
+    width: 60px;
+}
+.h-logo img{
+    width: 100%;
+    margin: 0;
+}
+.item ul{
+    display: flex;
+    align-items: baseline;
+}
+.item ul li{
+    list-style: none;
+    padding: 0px 20px;
+    font-family: 'Kanit', sans-serif;
+}
+.item ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.item ul li a:hover{
+    color: rgb(217, 205, 187);
+    text-decoration: underline rgb(217, 205, 187);
+    font-weight: 800;
+}
+.b-type{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    padding: 20px 50px;
+}
+.deposit{
+    border-radius: 15px;
+    background-image: linear-gradient(to right, rgb(58, 131, 196) , rgb(15, 181, 184));
+    color: white;
+    width: 200px;
+    padding: 15px;
+}
+.pkr{
+    margin: 0px;
+    font-family: 'kanit';
+    font-size: 25px;
+}
+.Drawal{
+    border-radius: 15px;
+    background-image:linear-gradient(to right, rgb(15, 181, 184), rgb(43, 184, 15)) ;
+    color: white;
+    width: 200px;
+    padding: 15px;
+}
+.Balance{
+    border-radius: 15px;
+    background-image: linear-gradient(to right, rgb(43, 184, 15), rgb(58, 131, 196) ) ;
+    color: white;
+    width: 200px;
+    padding: 15px;
+}
+.transiction{
+    display: flex;
+    padding: 30px 50px;
+    justify-content: center;
+}
+.cash-deposit{
+    padding: 0px 30px;
+    background-color: black;
+    border-radius: 15px;
+    margin: 10px;
+}
+.cash-deposit h2{
+    color: rgb(255, 166, 32);
+    font-family: 'kanit';
+}
+.cash-withDrawal{
+    padding: 0px 30px;
+    background-color: black;
+    border-radius: 15px;
+    margin: 10px;
+}
+.cash-withDrawal h2{
+    color: rgb(255, 166, 32);
+    font-family: 'kanit';
+}
+.balance-form{
+    padding-bottom: 21px;
+}
+.cash-btn{
+    color: black;
+    background-color:  rgb(255, 166, 32);
+    padding: 5px 10px;
+    border-radius: 0px 10px 10px 0px;
+}
+.inp{
+    padding: 5px;
+    border-radius: 10px 0px 0px 10px;
+}
+.rpe{
+    font-size: 20px;
+}
+.table{
+    margin: 0 auto;
+}
+.t-heading{
+    background-color: black;
+    color: rgb(255, 166, 32);
+    font-family: sans-serif;
+}
+.bank-record{
+    display: none;
+    margin: 5rem 0rem;
+}
+.data{
+    background-color: rgb(255, 166, 32);
+    color: black;
+    font-family: sans-serif;
+}

@@ -10,10 +10,13 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    position: fixed;
+    width: 100%;
+    z-index: 100000;
 }
-.h-logo{
-    width: 45px;
+.h-logo {
+    width: 50px;
+    padding: 0px 50px;
 }
 .h-logo img{
     width: 100%;

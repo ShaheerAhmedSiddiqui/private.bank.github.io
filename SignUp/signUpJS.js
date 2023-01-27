@@ -31,7 +31,7 @@ function SignUp(event) {
     }
     
    if (user!== "" && user_email!== "" && user_pass!== "") {
-        window.open("https://shaheerahmedsiddiqui.github.io/private.bank.github.io/index.html", "_self")
+        window.open("https://shaheerahmedsiddiqui.github.io/private.bank.github.io/", "_self")
         // var balance =  document.getElementById("logName").innerHTML = element.user; 
    } else {
         alert("please fill information to sign Up")

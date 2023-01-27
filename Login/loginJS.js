@@ -14,7 +14,7 @@ console.log(currentUser);
 if(currentUser !== undefined){
   console.log("you have successfully login");
   console.log(currentUser);
-  window.open("https://shaheerahmedsiddiqui.github.io/private.bank.github.io/index.html", "_self")
+  window.open("https://shaheerahmedsiddiqui.github.io/private.bank.github.io/", "_self")
   document.getElementById("logName").innerHTML = "new text";
 }
 else{

@@ -31,7 +31,7 @@ function SignUp(event) {
     }
     
    if (user!== "" && user_email!== "" && user_pass!== "") {
-        window.open("file:///E:/laragon/www/private.bank.github.io/index.html", "_self")
+        window.open("../index.html", "_self")
         // var balance =  document.getElementById("logName").innerHTML = element.user; 
         console.log(balance);
    } else {

@@ -5,7 +5,6 @@ body{
     font-family: Arial, Helvetica, sans-serif ;
 }
 .header{
-    background-color: rgb(255, 166, 32);
     padding: 5px 0px;
     display: flex;
     justify-content: space-between;
@@ -13,6 +12,12 @@ body{
     position: fixed;
     width: 100%;
     z-index: 100000;
+    background-color: #2c2c2c4a;
+}
+#header-main{
+    background: url(../private.bank.github.io/bank-img/banner2.png.webp) no-repeat;
+    background-size: cover;
+    margin-bottom: 5rem;
 }
 .h-logo {
     width: 50px;
@@ -33,40 +38,82 @@ body{
 }
 .item ul li a{
     text-decoration: none;
-    color: black;
+    color: #ffffffe8;
     font-weight: 600;
 }
 .item ul li a:hover{
-    color: rgb(217, 205, 187);
-    text-decoration: underline rgb(217, 205, 187);
+    text-decoration: underline #006a3f;
+    color: #006a3f;
     font-weight: 800;
 }
 .head-temp{
     display: flex;
     justify-content: space-between;
-    padding: 185px 50px;
-    background-color: rgb(217, 205, 187);
+    padding: 175px 50px;
+    /* background-color: rgb(217, 205, 187); */
     align-items: end ;
 }
-.head-box h3{
-    margin-bottom: 10px;
-    font-family: sans-serif;
+.head-box {
+    width: 50%;
 }
 .head-box h1{
     font-family: sans-serif;
     margin-bottom: 10px;
+    font-size: 43px;
+    color: #ffffffe8;
 }
 .head-box p{
+    margin: 0;
     font-family: sans-serif;
-    margin-bottom: 10px;
+    margin-bottom: 2rem;
+    font-size: 20px;
+    color: #ffffffe8;
+    line-height: 25px;
+}
+.account{
+    border: 2px solid #ffffffe8;
+    border-radius: 10px;
+    color: #ffffffe8;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.account:hover{
+    background-color: #006a3f;
 }
 .contant{
     display: flex;
     align-self: center;
     justify-content: space-around;
-    padding: 7rem 0rem;
+    padding: 2.5rem 0rem;
+    margin-bottom: 3rem;
 }
-.c-box{
+.dep{
+    text-align: center;
+}
+.dep-h1{
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Kanit';
+    margin: 0;
+}
+.c1-box{
+    background: url(../private.bank.github.io/bank-img/bank-finance.jpg) no-repeat;
+    background-size: cover;
+    width: 250px;
+    padding: 30px 10px;
+    text-align: center;
+}
+.c2-box{
+    background: url(../private.bank.github.io/bank-img/deposit.jpg) no-repeat;
+    background-size: cover;
+    width: 250px;
+    padding: 30px 10px;
+    text-align: center;
+}
+.c3-box{
+    background: url(../private.bank.github.io/bank-img/withDraw.jpg) no-repeat;
+    background-size: cover;
     width: 250px;
     padding: 30px 10px;
     text-align: center;
@@ -77,6 +124,14 @@ body{
 }
 .b-img img{
     width: 100%;
+}
+.c-h2{
+    color: #ffffffe8;
+    font-family: sans-serif;
+}
+.c-p{
+    color: #ffffffe8;
+    font-family: sans-serif;
 }
 .footer{
     background-color: black;
@@ -95,28 +150,28 @@ body{
     color: white;
 }
 .f-items ul li a:hover{
-    text-decoration: underline rgb(255, 166, 32);
-    color: rgb(255, 166, 32);
+    text-decoration: underline #006a3f;
+    color: #006a3f;
 }
 #login{
     background: black;
-    color: rgb(255, 166, 32);
+    color: #ffffffe8;
     padding: 5px 10px;
     border-radius: 15px;
 }
 #login:hover{
     background: white;
-    color: black;
+    color: #006a3f;
     text-decoration: none;
 }
 #signup{
     background: black;
-    color: rgb(255, 166, 32);
+    color: #ffffffe8;
     padding: 5px 10px;
     border-radius: 15px;
 }
 #signup:hover{
     background: white;
-    color: black;
+    color: #006a3f;
     text-decoration: none;
 }

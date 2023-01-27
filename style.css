@@ -64,7 +64,7 @@ body{
     display: flex;
     align-self: center;
     justify-content: space-around;
-    padding: 50px 0px;
+    padding: 7rem 0rem;
 }
 .c-box{
     width: 250px;

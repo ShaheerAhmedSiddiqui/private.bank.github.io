@@ -44,7 +44,7 @@ body{
 .head-temp{
     display: flex;
     justify-content: space-between;
-    padding: 205px 50px;
+    padding: 185px 50px;
     background-color: rgb(217, 205, 187);
     align-items: end ;
 }

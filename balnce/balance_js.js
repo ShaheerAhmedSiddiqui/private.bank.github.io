@@ -91,5 +91,22 @@ function cashDrawal() {
 function record(){
     var data= document.getElementById("records");
     data.style.display =  "block";
+
+    var hide = document.getElementById("chk-record");
+    hide.style.display =  "none";
+
+    var show = document.getElementById("hide-record");
+    show.style.display =  "block";
+}
+
+function hide(){
+    var data= document.getElementById("records");
+    data.style.display =  "none";
+
+    var hide = document.getElementById("chk-record");
+    hide.style.display =  "block";
+
+    var show = document.getElementById("hide-record");
+    show.style.display =  "none";
 }
 

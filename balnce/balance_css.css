@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-bottom: 2.5rem;
 }
 .h-logo{
     width: 50px;
@@ -120,10 +120,42 @@ body{
 }
 .bank-record{
     display: none;
-    margin: 5rem 0rem;
+    margin: 1.5rem 0rem;
 }
 .data{
     background-color: rgb(255, 166, 32);
     color: black;
     font-family: sans-serif;
+}
+.record-btn-box{
+    text-align: center;
+}
+#chk-record{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    width: 135px;
+    margin: 0 auto;
+}
+#chk-record:hover{
+    color: black;
+    background-color: rgb(255, 166, 32);
+}
+#hide-record{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    display: none;
+    width: 135px;
+    margin: 0 auto;
+}
+#hide-record:hover{
+    color: black;
+    background-color: rgb(255, 166, 32);
 }

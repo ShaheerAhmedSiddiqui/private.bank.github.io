@@ -22,7 +22,6 @@
                     <li><a href="#">About</a></li>
                     <li><a href="#">Credit</a></li>
                     <li><a href="#">Information</a></li>
-                    <li><a href="#" onclick="record()">Records</a></li>
                     <li><a href="#">Balance</a></li>
                 </ul>
             </div>
@@ -60,6 +59,10 @@
                 </div>
             </div>
         </div>
+        <div class="record-btn-box">
+           <a href="#" id="chk-record" onclick="record()">Shows All Records</a>
+           <a href="#" id="hide-record" onclick="hide()">Hides All Records</a>
+        </div>
         <div class="bank-record" id="records">
             <table id="mytable" class="table" border="1px solid black" cellspacing="5" cellpadding="8">
                 <thead>
@@ -67,7 +70,7 @@
                         <th class="t-heading">Cash</th>
                         <th class="t-heading">Type</th>
                         <th class="t-heading">Date & Time</th>
-                        <th class="t-heading">Amount Remaining</th>
+                        <th class="t-heading">Amount Remaining</th> 
                     </tr>
                 </thead>
                 <tbody id="last">

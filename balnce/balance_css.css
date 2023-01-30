@@ -4,14 +4,20 @@ body{
     padding: 0;
 }
 .header{
-    background-color: rgb(255, 166, 32);
     padding: 5px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 2.5rem;
+    position: fixed;
+    width: 100%;
+    z-index: 100000;
+    background-color: #0d121685;
 }
 .h-logo{
+    width: 50px;
+    padding: 0px 50px;
+}
+.h-logo {
     width: 50px;
     padding: 0px 50px;
 }
@@ -30,19 +36,19 @@ body{
 }
 .item ul li a{
     text-decoration: none;
-    color: black;
+    color: #ffffffe8;
     font-weight: 600;
 }
 .item ul li a:hover{
-    color: rgb(217, 205, 187);
-    text-decoration: underline rgb(217, 205, 187);
+    text-decoration: underline #14191e;
+    color: #14191e;
     font-weight: 800;
 }
 .b-type{
     display: flex;
     align-items: baseline;
     justify-content: space-evenly;
-    padding: 20px 50px;
+    padding: 110px 50px 20px 50px;
 }
 .deposit{
     border-radius: 15px;
@@ -72,8 +78,8 @@ body{
 }
 .transiction{
     display: flex;
-    padding: 30px 50px;
-    justify-content: center;
+    padding: 30px 158px;
+    justify-content: left;
 }
 .cash-deposit{
     padding: 0px 30px;
@@ -129,7 +135,7 @@ body{
     font-family: sans-serif;
 }
 .record-btn-box{
-    text-align: center;
+        margin-left: 10.25rem;
 }
 #chk-record{
     color: white;
@@ -139,7 +145,6 @@ body{
     text-decoration: none;
     font-family: sans-serif;
     width: 135px;
-    margin: 0 auto;
 }
 #chk-record:hover{
     color: black;
@@ -154,7 +159,6 @@ body{
     font-family: sans-serif;
     display: none;
     width: 135px;
-    margin: 0 auto;
 }
 #hide-record:hover{
     color: black;

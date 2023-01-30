@@ -11,60 +11,64 @@ var currentUser = users.find(element => ((element.email == user_email) && elemen
 
 console.log(currentUser);
 
-if(currentUser !== undefined){
-  console.log("you have successfully login");
-  console.log(currentUser);
-  window.open("https://shaheerahmedsiddiqui.github.io/private.bank.github.io/", "_self")
-  document.getElementById("logName").innerHTML = "new text";
-}
-else{
-  alert("your email and password is incorrect");
-}
+if (user_email !== null, user_pass!== null) {
+  if(currentUser !== undefined){
+    console.log("you have successfully login");
+    console.log(currentUser);
+    window.open("https://shaheerahmedsiddiqui.github.io/private.bank.github.io/", "_self")
+    document.getElementById("logName").innerHTML = "new text";
+  }
+  else{
+    alert("your email and password is incorrect");
+  }
+      
+  // users.forEach((element, index) => {
+  //     if((element.email !== "") && (element.email)){
+  //       var decryptPassword = window.atob( String( element.password ));
+  //       if((user_email == element.email) && (user_pass == decryptPassword)){
+  //         console.log("you have successfully login");
+  //       }
+  //     }
+  // });
+  
+  users.fin
+  
+  // localStorage.setItem("userEmail", user_email);
+  // localStorage.setItem("userPassword", user_pass);
+  
+  // var getUsers = localStorage.getItem('users');
+  //   console.log(getUsers)
     
-// users.forEach((element, index) => {
-//     if((element.email !== "") && (element.email)){
-//       var decryptPassword = window.atob( String( element.password ));
-//       if((user_email == element.email) && (user_pass == decryptPassword)){
-//         console.log("you have successfully login");
-//       }
-//     }
-// });
-
-users.fin
-
-// localStorage.setItem("userEmail", user_email);
-// localStorage.setItem("userPassword", user_pass);
-
-// var getUsers = localStorage.getItem('users');
-//   console.log(getUsers)
+  //   var getEmail =  JSON.parse(localStorage.getItem(users[1]));
+  //   console.log(getEmail);
   
-//   var getEmail =  JSON.parse(localStorage.getItem(users[1]));
-//   console.log(getEmail);
-
-// if ( user_email!== "" && user_pass!== "") {
+  // if ( user_email!== "" && user_pass!== "") {
+    
+  //     // var get = JSON.parse(localStorage.getItem(user_email));
+  //     //             JSON.parse(localStorage.getItem(user_pass));
+  //     //             console.log(record);
+  //                 // JSON.parse(localStorage.getItem(user));
   
-//     // var get = JSON.parse(localStorage.getItem(user_email));
-//     //             JSON.parse(localStorage.getItem(user_pass));
-//     //             console.log(record);
-//                 // JSON.parse(localStorage.getItem(user));
-
-
-//     if (getUsers != null) {
-//        if( user_email == users.email && user_pass == users.password){
-        
-//         //  window.open("file:///E:/Shaheer's_Program/Javascript/My-bank/bank.html", "_self")
-//          console.log(users);
-//        }
-//        else{
-//         alert("please  give correct information")
-//        }
-//     } 
-// } else {
-//     alert("please fill information to sign Up")
-// }
-
-
-
+  
+  //     if (getUsers != null) {
+  //        if( user_email == users.email && user_pass == users.password){
+          
+  //         //  window.open("file:///E:/Shaheer's_Program/Javascript/My-bank/bank.html", "_self")
+  //          console.log(users);
+  //        }
+  //        else{
+  //         alert("please  give correct information")
+  //        }
+  //     } 
+  // } else {
+  //     alert("please fill information to sign Up")
+  // }
+  
+  
+  
+} else {
+  alert("PLEASE FILL THIS")
+}
 }
 function showPass(){
   var x = document.getElementById("password");

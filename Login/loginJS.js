@@ -11,7 +11,11 @@ var currentUser = users.find(element => ((element.email == user_email) && elemen
 
 console.log(currentUser);
 
-if (user_email !== null, user_pass!== null) {
+if ((user_email !== '') && (user_pass !== '')) {
+
+
+  // return;
+
   if(currentUser !== undefined){
     console.log("you have successfully login");
     console.log(currentUser);

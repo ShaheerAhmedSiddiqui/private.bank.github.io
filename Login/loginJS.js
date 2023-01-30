@@ -20,7 +20,10 @@ if ((user_email !== '') && (user_pass !== '')) {
     console.log("you have successfully login");
     console.log(currentUser);
     window.open("https://shaheerahmedsiddiqui.github.io/private.bank.github.io/", "_self")
-    document.getElementById("logName").innerHTML = "new text";
+
+    var  key1 = sessionStorage.getItem("key1")= "logOut";
+    key1 = "logOut";
+
   }
   else{
     alert("your email and password is incorrect");

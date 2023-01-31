@@ -19,7 +19,7 @@ if ((user_email !== '') && (user_pass !== '')) {
   if(currentUser !== undefined){
     console.log("you have successfully login");
     console.log(currentUser);
-    window.open("https://shaheerahmedsiddiqui.github.io/private.bank.com/", "_self")
+    window.open("https://shaheerahmedsiddiqui.github.io/private.bank.github.io/", "_self")
     
     var  check = localStorage.getItem("key1");
     console.log(check);

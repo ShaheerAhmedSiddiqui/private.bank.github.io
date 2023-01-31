@@ -19,6 +19,9 @@ body{
     background-size: cover;
     margin-bottom: 5rem;
 }
+.logo-div{
+    width: 20%;
+}
 .h-logo {
     width: 50px;
     padding: 0px 50px;
@@ -26,6 +29,11 @@ body{
 .h-logo img{
     width: 100%;
     margin: 0;
+}
+.item{
+    width: 60%;
+    display: flex;
+    justify-content: center;
 }
 .item ul{
     display: flex;
@@ -45,6 +53,18 @@ body{
     text-decoration: underline #14191e;
     color: #14191e;
     font-weight: 800;
+}
+.log-sign ul{
+    display: flex;
+    align-items: baseline;
+}
+.log-sign{
+    width: 20%;
+}
+.log-sign ul li{
+    list-style: none;
+    padding: 0px 5px;
+    font-family: 'Kanit', sans-serif;
 }
 .head-temp{
     justify-content: center;
@@ -162,6 +182,7 @@ body{
     color: #ffffffe8;
     padding: 5px 10px;
     border-radius: 15px;
+    text-decoration: none;
 }
 #login:hover{
     background: white;
@@ -171,8 +192,9 @@ body{
 #signup{
     background: black;
     color: #ffffffe8;
-    padding: 5px 10px;
+    padding: 5px 15px;
     border-radius: 15px;
+    text-decoration: none;
 }
 #signup:hover{
     background: white;

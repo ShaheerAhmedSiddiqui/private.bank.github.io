@@ -23,7 +23,7 @@ if ((user_email !== '') && (user_pass !== '')) {
 
     var  key1 = sessionStorage.getItem("key1");
     text = "logOut";
-    key1= text
+    key1= text;
     console.log(key1);
   }
   else{

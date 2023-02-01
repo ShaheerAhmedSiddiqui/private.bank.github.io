@@ -127,20 +127,31 @@ body{
 }
 .table{
     margin: 0 auto;
+    font-family: monospace;
+    border-radius: 10px; 
+    width: 55%;
+    margin-top: 50px;
+    color: #ffffffe8;
 }
 .t-heading{
-    background-color: black;
-    color: rgb(255, 166, 32);
-    font-family: sans-serif;
+    font-family: 'Kanit';
+    padding: 10px 20px;
+    background: #818385;
+    font-weight: bolder;
+    border: none;
+    border-bottom: 2px solid;
 }
 .bank-record{
     display: none;
     margin: 1.5rem 0rem;
 }
 .data{
-    background-color: rgb(255, 166, 32);
-    color: black;
-    font-family: sans-serif;
+    font-family: monospace;
+    font-size: 13px;
+    padding: 10px;
+    border: none;
+    background: none !important;
+    text-align: center;
 }
 .record-btn-box{
         margin-left: 10.25rem;
@@ -172,3 +183,10 @@ body{
     color: black;
     background-color: rgb(255, 166, 32);
 }
+#last tr:nth-child(odd) {
+    background: #0d121685;
+}
+
+tr {}
+
+#last tr {background: #161719;}

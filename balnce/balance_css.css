@@ -47,8 +47,8 @@ body{
 .b-type{
     display: flex;
     align-items: baseline;
-    justify-content: space-evenly;
-    padding: 110px 50px 20px 50px;
+    justify-content: unset;
+    padding: 110px 134px 20px 134px;
 }
 .deposit{
     border-radius: 15px;
@@ -68,6 +68,7 @@ body{
     color: white;
     width: 200px;
     padding: 15px;
+    margin: 0px 15px;
 }
 .Balance{
     border-radius: 15px;
@@ -78,7 +79,7 @@ body{
 }
 .transiction{
     display: flex;
-    padding: 30px 158px;
+    padding: 30px 134px;
     justify-content: left;
 }
 .cash-deposit{
@@ -159,10 +160,11 @@ body{
     color: white;
     background-color: black;
     border-radius: 10px;
-    padding: 10px 15px;
+    padding: 6px 10px;
     text-decoration: none;
     font-family: sans-serif;
-    width: 135px;
+    width: 109px;
+    font-size: 13px;
 }
 #chk-record:hover{
     color: #ffffffe8;
@@ -172,11 +174,12 @@ body{
     color: white;
     background-color: black;
     border-radius: 10px;
-    padding: 10px 15px;
+    padding: 6px 10px;
     text-decoration: none;
     font-family: sans-serif;
     display: none;
-    width: 135px;
+    width: 109px;
+    font-size: 13px;
 }
 #hide-record:hover{
     color: #ffffffe8;
@@ -188,4 +191,6 @@ body{
 
 tr {}
 
-#last tr {background: #161719;}
+#last tr {
+    background: #161719;
+}

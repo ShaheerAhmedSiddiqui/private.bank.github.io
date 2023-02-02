@@ -113,7 +113,7 @@ body{
 }
 .cash-btn:hover{
     color: #ffffffe8;
-    background-color:  rgb(255, 166, 32);
+    background-color: #818385;
     padding: 5px 10px;
     border-radius: 0px 10px 10px 0px;
     font-family: sans-serif;
@@ -128,7 +128,6 @@ body{
 .table{
     margin: 0 auto;
     font-family: monospace;
-    border-radius: 10px; 
     width: 55%;
     margin-top: 50px;
     color: #ffffffe8;
@@ -166,8 +165,8 @@ body{
     width: 135px;
 }
 #chk-record:hover{
-    color: black;
-    background-color: rgb(255, 166, 32);
+    color: #ffffffe8;
+    background-color: #818385;
 }
 #hide-record{
     color: white;
@@ -180,8 +179,8 @@ body{
     width: 135px;
 }
 #hide-record:hover{
-    color: black;
-    background-color: rgb(255, 166, 32);
+    color: #ffffffe8;
+    background-color: #818385;
 }
 #last tr:nth-child(odd) {
     background: #0d121685;

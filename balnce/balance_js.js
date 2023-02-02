@@ -8,6 +8,7 @@ var drw_btn = document.getElementById("drw-btn");
 
 var total_val = document.getElementById("total-val");
 
+// const withDraw = [];
 function deposit(){
     // var record = JSON.stringify(myArray);
     // localStorage.getItem(myArray.UserName ,record);
@@ -72,15 +73,16 @@ function cashDrawal() {
 
     var total_val = document.getElementById("total-val").innerText;
 
-    var subtract = parseInt(total_val) - parseInt(drw_inp);
-    document.getElementById("total-val").innerText = subtract;
-
-
+    if (total_val > 0) {
+        var subtract = parseInt(total_val) - parseInt(drw_inp);
+        document.getElementById("total-val").innerText = subtract;
+    } else {
+        alert("You Don't Have An Amount to Cash WithDraw.")
+    }
 
     var drw_inp = document.getElementById("drw-inp").value;
     var type = "With Drawal";
     var date = new Date().toLocaleString(undefined, {year: 'numeric', month: '2-digit', day: '2-digit', weekday:"long", hour: '2-digit', hour12: false, minute:'2-digit', second:'2-digit'}) ;
-
 
     $('#mytable').append('<tr> <td  class="data">' + '$' + drw_inp + '</td> <td  class="data">' + type + '</td> <td  class="data">' + date + '</td> <td class="data">'  + '$' +subtract+'</td> </tr>');
 

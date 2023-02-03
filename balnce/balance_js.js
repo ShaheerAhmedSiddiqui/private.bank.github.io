@@ -59,23 +59,43 @@ function withDraw(){
         alert("please fill this ")
     }
 }
+//withDraw function
 function cashDrawal() {
     var drw_inp = document.getElementById("drw-inp").value;
     var drw_val = document.getElementById("drw-val");
-
-    if (parseInt(drw_val.innerText) >= 0) {
-        drw_val.innerText = parseInt(drw_val.innerText) + parseInt(drw_inp);
+    var total_val = document.getElementById("total-val").innerText;
+    
+    if (parseInt(drw_inp) < parseInt(total_val) ) {
+        drw_val.innerText = (parseInt(drw_val.innerText) + parseInt(drw_inp));
         console.log(parseInt(drw_val.innerText));
         console.log(drw_val);
+        // var drw_val = document.getElementById("drw-val").innerText = "";
     } else {
-        drw_val.innerText = drw_inp;
+        alert("your amount can't be drop from 5$")
     }
 
-    var total_val = document.getElementById("total-val").innerText;
+    console.log(parseInt(drw_inp));
+    console.log(parseInt(total_val));
 
-    if (total_val > 0) {
-        var subtract = parseInt(total_val) - parseInt(drw_inp);
+    //add
+    // if (parseInt(drw_inp) < parseInt(total_val)) {
+    //     drw_val.innerText = (parseInt(drw_val) + parseInt(drw_inp));
+    //     console.log(drw_val.innerHTML);
+    //     console.log(drw_val);
+    // } else {
+    //     alert("your amount can't be drop from 5$")
+    //     drw_val.innerText= 0;
+    // }
+
+
+    //substract
+    if (parseInt(total_val) >= parseInt(drw_inp)) {
+        var subtract = (parseInt(total_val) - parseInt(drw_inp));
+    
         document.getElementById("total-val").innerText = subtract;
+        // var add= (parseInt(drw_val) + parseInt(drw_inp));
+        // document.getElementById("drw-val").innerText = add;
+        // console.log(add);
     } else {
         alert("You Don't Have An Amount to Cash WithDraw.")
     }

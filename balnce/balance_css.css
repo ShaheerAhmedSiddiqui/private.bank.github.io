@@ -79,7 +79,7 @@ body{
 }
 .transiction{
     display: flex;
-    padding: 30px 134px;
+    padding: 30px 125px;
     justify-content: left;
 }
 .cash-deposit{
@@ -154,7 +154,7 @@ body{
     text-align: center;
 }
 .record-btn-box{
-        margin-left: 10.25rem;
+        margin-left: 8.25rem;
 }
 #chk-record{
     color: white;

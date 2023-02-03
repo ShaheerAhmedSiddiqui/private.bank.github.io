@@ -21,9 +21,10 @@ if ((user_email !== '') && (user_pass !== '')) {
     console.log(currentUser);
     window.open("https://shaheerahmedsiddiqui.github.io/private.bank.github.io/", "_self")
 
-    var  key1 = localStorage.getItem("key1");
+    var  key1 = localStorage.getItem("key1").value;
+    var use = parse(key1)
     var text = "logOut";
-    key1= text;
+    key1.value= text;
     console.log(key1);
   }
   else{

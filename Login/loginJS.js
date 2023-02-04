@@ -26,7 +26,7 @@ if ((user_email !== '') && (user_pass !== '')) {
     var text = "logOut";
     key1.value= text;
     console.log(key1);
-  }
+  }   
   else{
     alert("your email and password is incorrect");
   }

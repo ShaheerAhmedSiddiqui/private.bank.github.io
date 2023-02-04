@@ -71,7 +71,7 @@ function cashDrawal() {
         console.log(drw_val);
         // var drw_val = document.getElementById("drw-val").innerText = "";
     } else {
-        alert("your amount can't be drop from 5$")
+        // alert("your amount can't be drop from 5$")
     }
 
     console.log(parseInt(drw_inp));

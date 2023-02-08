@@ -61,6 +61,9 @@ body{
 .log-sign{
     width: 20%;
 }
+#logout{
+    display: none;
+}
 .log-sign ul li{
     list-style: none;
     padding: 0px 5px;

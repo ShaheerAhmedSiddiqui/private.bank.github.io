@@ -10,6 +10,21 @@
 </head>
 
 <body>
+    <script>
+        let a = localStorage.getItem('status');
+        console.log(a);
+        if (a == "login" ) {
+            var  btn_li = document.getElementById("login")
+            var  btn_lo = document.getElementById("logout")
+            var  btn_sg = document.getElementById("signin")
+
+
+            btn_li.style.display = 'none';
+            btn_sg.style.display = 'none';
+            btn_lo.style.display = 'block';
+
+        }
+    </script>
     <div id="wrappper">
         <div id="header-main">
             <div class="header">
@@ -31,6 +46,7 @@
                 <div class="log-sign">
                     <ul>
                         <li><a href="./Login/Login.html" id="login">Login</a></li>
+                        <li><a href="./SignUp/signUp.html" id="logout">Log Out</a></li>
                         <li><a href="./SignUp/signUp.html" id="signup">Sign Up</a></li>
                     </ul>
                 </div>

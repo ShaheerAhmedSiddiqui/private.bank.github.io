@@ -26,7 +26,7 @@ if ((user_email-email !== '') && (user_pass !== '')) {
     // var text = "logOut";
     // key1.value= text;
     // console.log(key1);
-    var set = localStorage.setItem("status", "login")
+    var set = localStorage.setItem("status", true)
     console.log(set);
   }   
   else{

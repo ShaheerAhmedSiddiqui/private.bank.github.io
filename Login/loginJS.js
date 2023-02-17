@@ -11,7 +11,7 @@ var currentUser = users.find(element => (element.email == user_email && element.
 
 console.log(currentUser);
 
-if ((user_email-email !== '') && (user_pass !== '')) {
+if ((user_email !== '') && (user_pass !== '')) {
 
 
   // return;

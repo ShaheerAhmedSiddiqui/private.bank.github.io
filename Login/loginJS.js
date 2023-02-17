@@ -7,7 +7,7 @@ let users = JSON.parse(getUsers);
 
 var encrypted = window.btoa(user_pass);
 
-var currentUser = users.find(element => ((element.email == user_email) && (element.password == encrypted)));
+var currentUser = users.find(element => (element.email == user_email && element.password == encrypted));
 
 console.log(currentUser);
 

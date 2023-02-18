@@ -106,7 +106,21 @@
         </div>
     </div>
     <script>
-   
+        let a = localStorage.getItem('status');
+        console.log(a);
+        console.log(typeof a);
+        if (a) {
+            console.log(a)
+            var  btn_li = document.getElementById("login");
+            btn_li.style.display = "none";
+            var  btn_lo = document.getElementById("logout");
+            btn_lo.style.display = "block";
+            var  btn_sg = document.getElementById("signup");
+            btn_sg.style.display = "none";
+            // btn_li.style.display = 'none';
+            // btn_sg.style.display = 'none';
+            // btn_lo.style.display = 'block';
+        }
     
     </script>
 </body>

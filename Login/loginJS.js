@@ -19,6 +19,7 @@ if ((user_email !== '') && (user_pass !== '')) {
   if(currentUser !== undefined){
     console.log("you have successfully login");
     console.log(currentUser);
+    var set = localStorage.setItem("status", true);
     window.open("https://shaheerahmedsiddiqui.github.io/private.bank.github.io/", "_self")
 
     // var  key1 = localStorage.getItem("key1").value;
@@ -26,8 +27,6 @@ if ((user_email !== '') && (user_pass !== '')) {
     // var text = "logOut";
     // key1.value= text;
     // console.log(key1);
-    var set = localStorage.setItem("status", true)
-    console.log(set);
   }   
   else{
     alert("your email and password is incorrect");

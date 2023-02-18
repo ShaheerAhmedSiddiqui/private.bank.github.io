@@ -10,21 +10,6 @@
 </head>
 
 <body>
-    <script>
-        let a = localStorage.getItem('status');
-        console.log(a);
-        console.log(typeof a);
-        if (a == 'true') {
-            console.log(a)
-            var  btn_li = document.getElementById("login").style.display = "none";
-            var  btn_lo = document.getElementById("logout").style.display = "block";
-            var  btn_sg = document.getElementById("signin").style.display = "none";
-            // btn_li.style.display = 'none';
-            // btn_sg.style.display = 'none';
-            // btn_lo.style.display = 'block';
-        }
-    
-    </script>
     <div id="wrappper">
         <div id="header-main">
             <div class="header">
@@ -120,6 +105,21 @@
             </div>
         </div>
     </div>
+    <script>
+        let a = localStorage.getItem('status');
+        console.log(a);
+        console.log(typeof a);
+        if (a == 'true') {
+            console.log(a)
+            var  btn_li = document.getElementById("login").style.display = "none";
+            var  btn_lo = document.getElementById("logout").style.display = "block";
+            var  btn_sg = document.getElementById("signin").style.display = "none";
+            // btn_li.style.display = 'none';
+            // btn_sg.style.display = 'none';
+            // btn_lo.style.display = 'block';
+        }
+    
+    </script>
 </body>
 <script src="bank-js.js"></script>
 

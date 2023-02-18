@@ -64,6 +64,17 @@ body{
 #logout{
     display: none;
 }
+#logout{
+    background: black;
+    color: #ffffffe8;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+#logout:hover{
+    background: white;
+    color: #14191e;
+    text-decoration: none;
+}
 .log-sign ul li{
     list-style: none;
     padding: 0px 5px;

@@ -15,7 +15,7 @@ body{
     background-color: #0d121685;
 }
 #header-main{
-    background: url(../private.bank.github.io/bank-img/robert-bye-jeF-vyxytb4-unsplash.jpg) no-repeat;
+    background: url(./bank-img/bank-unsplash.jpg) no-repeat;
     background-size: cover;
     margin-bottom: 5rem;
 }

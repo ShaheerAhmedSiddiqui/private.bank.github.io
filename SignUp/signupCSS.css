@@ -9,7 +9,6 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: #0d121685;
-    margin-bottom: 4rem;
 }
 .h-logo {
     width: 50px;
@@ -61,18 +60,17 @@ body{
     text-decoration: none;
 }
 .login-Popup{
-    width: 450px;
     text-align: center;
     margin: 0 auto;
-    padding: 10px 15px;
-    background-color: black;
+    padding: 20px 60px;
+    background-color: #000000ba;
     font-family: sans-serif;
-    margin-bottom: 10rem;
     border-radius: 20px;
 }
 .signUp{
-    color: white;
+    color: #211810;
     font-family: 'kanit';
+    font-weight: bold;
 }
 .text{
     width: 200px;
@@ -122,4 +120,23 @@ body{
 }
 #mytable{
     margin: 0 auto ;
+}
+.signUp-head{
+    display: flex;
+    background: url(../bank-img/robert-bye-jeF-vyxytb4-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-color: #0d121685 !important;
+    padding: 4rem 2rem;
+    justify-content: space-around;
+}
+.signUp-text{
+    padding: 6rem 3rem;
+}
+.signUp-text p{
+    color: #211810;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.head-shades{
+    background-color: #0d121685;
 }

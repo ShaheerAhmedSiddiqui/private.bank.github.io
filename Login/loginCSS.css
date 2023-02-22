@@ -63,13 +63,13 @@ body{
     text-align: center;
     margin: 0 auto;
     padding: 20px 60px;
-    background-color: #000000ba;
+    background-color: #000000a6;
     font-family: sans-serif;
     border-radius: 20px;
 }
 .signUp{
-    color: #211810;
-    font-family: 'kanit';
+    color: white;
+    font-family: sans-serif;
     font-weight: bold;
 }
 .text{
@@ -123,7 +123,7 @@ body{
 
 .signUp-head{
     display: flex;
-    background: url(../bank-img/robert-bye-jeF-vyxytb4-unsplash.jpg) no-repeat;
+    background: url(../bank-img/bank-unsplash.jpg) no-repeat;
     background-size: cover;
     background-color: #0d121685 !important;
     padding: 5.25rem 2rem;
@@ -133,7 +133,7 @@ body{
     padding: 6rem 3rem;
 }
 .signUp-text p{
-    color: #211810;
+    color: white;
     font-size: 16px;
     font-family: sans-serif;
 }

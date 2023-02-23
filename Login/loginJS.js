@@ -20,7 +20,7 @@ if ((user_email !== '') && (user_pass !== '')) {
     console.log("you have successfully login");
     console.log(currentUser);
     var set = localStorage.setItem("status", true);
-    window.open("https://shaheerahmedsiddiqui.github.io/private.bank/", "_self")
+    window.open("https://shaheerahmedsiddiqui.github.io/private.bank.github.io/", "_self")
 
     // var  key1 = localStorage.getItem("key1").value;
     // var use = parse(key1)

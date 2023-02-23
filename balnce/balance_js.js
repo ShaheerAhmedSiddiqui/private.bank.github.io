@@ -132,3 +132,4 @@ function hide(){
     show.style.display =  "none";
 }
 
+var tohome = localStorage.setItem("status", true);

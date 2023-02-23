@@ -9,6 +9,9 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: #0d121685;
+    position: fixed;
+    z-index: 100000;
+    width: 100%;
 }
 .h-logo {
     width: 50px;
@@ -121,16 +124,22 @@ body{
 #mytable{
     margin: 0 auto ;
 }
-.signUp-head{
+.header-main{
     display: flex;
     background: url(../bank-img/bank-unsplash.jpg) no-repeat;
     background-size: cover;
     background-color: #0d121685 !important;
-    padding: 4rem 2rem;
+    /* padding:0rem 2rem 10rem 2rem; */
     justify-content: space-around;
 }
+.signUp-head {
+    position: relative;
+    display: flex;
+    padding: 6rem 15rem;
+    background-color: #00000054;
+}
 .signUp-text{
-    padding: 6rem 3rem;
+    padding: 6rem 1rem;
 }
 .signUp-text p{
     color: white;

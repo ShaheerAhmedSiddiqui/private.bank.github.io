@@ -12,14 +12,18 @@ body{
     position: fixed;
     z-index: 100000;
     width: 100%;
+    box-shadow: 0px 0px 5px 0px white;
 }
 .h-logo {
     width: 50px;
-    padding: 0px 50px;
+    padding: 0px 60px;
 }
 .h-logo img{
     width: 100%;
     margin: 0;
+}
+.item{
+    padding: 0px 60px;
 }
 .item ul{
     display: flex;
@@ -65,10 +69,12 @@ body{
 .login-Popup{
     text-align: center;
     margin: 0 auto;
-    padding: 20px 60px;
-    background-color: #000000a6;
+    padding: 20px 50px;
+    background-color: #00000082;
     font-family: sans-serif;
     border-radius: 20px;
+    box-shadow: 0 0px 20px blanchedalmond;
+    height: 260px;
 }
 .signUp{
     color: white;
@@ -76,7 +82,7 @@ body{
     font-weight: bold;
 }
 .text{
-    width: 200px;
+    width: 172px;
     margin: 0 auto;
     text-align: initial;
     color: white;
@@ -86,9 +92,10 @@ body{
     border: 2px solid #ffffffe8;
     border-radius: 10px;
     color: #ffffffe8;
-    padding: 10px 57px;
+    padding: 5px 30px;
     font-weight: 700;
     text-decoration: none;
+    margin: 0px 25px;
 }
 #button:hover{
     background-color: #e2e4d6;
@@ -98,17 +105,25 @@ body{
     margin: 0;
 }
 .email{
-    margin-bottom: 10px;
-    padding: 5px 5px;
-    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 5px 0px;
+    border: none;
+    background: no-repeat;
+    color: white;
+    border-bottom: 1px solid white;
+    outline: none;
 }
 #password{
-    padding: 5px 5px;
-    border-radius: 8px;
+    padding: 5px 0px;
+    /* border-radius: 8px; */
+    border: none;
+    background: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    margin-bottom: 15px;
 }
 .password{
-    padding: 5px 5px;
-    margin: 10px 14px  45px 0px
+    margin-bottom: 40px;
 }
 #span{
     text-decoration: none;
@@ -125,7 +140,6 @@ body{
     margin: 0 auto ;
 }
 .header-main{
-    display: flex;
     background: url(../bank-img/bank-unsplash.jpg) no-repeat;
     background-size: cover;
     background-color: #0d121685 !important;
@@ -135,11 +149,13 @@ body{
 .signUp-head {
     position: relative;
     display: flex;
-    padding: 6rem 15rem;
+    padding: 6rem 2rem;
     background-color: #00000054;
 }
 .signUp-text{
     padding: 6rem 1rem;
+    /* margin-right: 8rem; */
+    width: 50%;
 }
 .signUp-text p{
     color: white;
@@ -148,4 +164,22 @@ body{
 }
 .head-shades{
     background-color: #0d121685;
+}
+.accounts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.accounts a{
+    color: #fff;
+    font-family: 'kanit';
+    margin: 0;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+.accounts a:hover{
+    border-bottom: 2px solid white;
+    text-decoration: none;
 }

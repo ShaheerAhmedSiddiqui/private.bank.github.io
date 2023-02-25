@@ -121,6 +121,7 @@ body{
     border-bottom: 1px solid white;
     outline: none;
     margin-bottom: 15px;
+    color: white;
 }
 .password{
     margin-bottom: 40px;
